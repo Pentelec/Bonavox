@@ -1,0 +1,22 @@
+import java.lang.*;
+import javax.swing.*;
+
+public class Bonovox_RJ810 {
+
+  int randomInt;
+
+  public Bonovox_RJ810(int a) {
+    randomInt=a;
+  }
+  
+  public static void main(String[] args) {
+    Bonovox_RJ810 an1 = new Bonovox_RJ810(10);
+    String a = JOptionPane.showInputDialog(null, "Insert which sound you would like to hear.");
+    if (a = "Default System Sound") {
+    	final Runnable runnable = Toolkit.getDefaultToolkit().getDesktopProperty("win.sound.exclamation");
+    	 if (runnable != null)
+    	   runnable.run();
+    }
+  }
+
+} // Always note where the end is. If Jack loses his ball past this, we get a EOFException for the ball. A BALL. JACK'S BALL. IS THAT WHAT YOU WANT?

@@ -20,3 +20,5 @@ Sadly, due to the majority of Bonavox's prominence being found in internal conve
 ## Is it still around?
 
 Yes, and no. Bonavox's existence is about as certain as Pentelec's very own. However, this repository is mostly offered as historical evidence of the project.
+
+<b>Note: </b>The sound library has been completely removed from the public version of this repository, due to privacy concerns.
